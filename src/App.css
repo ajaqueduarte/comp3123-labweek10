@@ -1,0 +1,82 @@
+.data-entry-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.data-entry-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.data-entry-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.data-entry-form input[type="email"],
+.data-entry-form input[type="text"],
+.data-entry-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.data-entry-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.data-entry-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.data-entry-form button:hover {
+  background-color: #45a049;
+}
+.submitted-data {
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid green;
+  display: inline-block;
+}
+
+
+
+.submitted-data {
+  max-width: 600px;
+  margin: 20px  auto;
+  padding: 20px;
+  border: 2px solid rgb(128, 0, 90);
+  display: block;
+  background-color: #f9f9f9; /* A light grey background */
+  text-align: center;
+}
+
+.submitted-data h2 {
+  color: black;
+  margin-bottom: 15px;
+  
+}
+
+.submitted-data p {
+  color: green; 
+  margin: 5px 0;
+  font-size: 30px; 
+}
+
+.submitted-data strong {
+  font-weight: bold;
+}
